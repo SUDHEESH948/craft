@@ -12,8 +12,9 @@ dist
 dist-ssr
 *.local
 
-# Large raw media files (>100MB exceeds GitHub push limit)
+# Raw large camera files (>100MB exceeds GitHub push limit)
 public/media/*.MOV
+public/media/*.mov
 public/media/IMG_0459.MP4
 public/media/IMG_8511.MP4
 public/media/frames/
