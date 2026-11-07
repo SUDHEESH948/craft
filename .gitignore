@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Large raw media files (>100MB exceeds GitHub push limit)
+public/media/*.MOV
+public/media/IMG_0459.MP4
+public/media/IMG_8511.MP4
+public/media/frames/
+public/media/test_frame*.jpg
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
